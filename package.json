@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" :"nodemon index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "Talha shamim",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "nodemon": "^2.0.7"
   }

@@ -1,6 +1,9 @@
+var config = require('dotenv').config()
+
 var PaytmConfig = {
-  mid: "iRCqCp48223776233937",
-  key: "WGSKfbdGX%Rl&BP8",
-  website: "WEBSTAGING",
+  mid: process.env.MID,
+  key: process.env.KEY,
+  website: process.env.WEBSITE,
 };
+
 module.exports.PaytmConfig = PaytmConfig;
